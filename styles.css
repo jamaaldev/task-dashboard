@@ -17,7 +17,7 @@ body {
 .sidebar {
     width: 252px;
     background-color: white;
-    padding: 20px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,8 @@ body {
     display: flex;
     align-items: center;
     width: 100% ;
-
+background-color: #F5F5F7;
+border-radius: 10px;
     padding: 10px 15px;
 }
 
@@ -73,9 +74,11 @@ body {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    gap: 45px;
+    gap: 35px;
     top: -24px;
     position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .help-center .question {
@@ -112,13 +115,14 @@ body {
 }
 
 .help-center p {
-    font-size: 12px;
-    padding-inline: 5px;
+    font-size: 11px;
+    width: 152px;
+    padding-block: 15px;
 }
 
 .help-center button{
     width: 100%;
-    padding: 10px;
+    padding: 10px 22px;
     background-color: #fff;
     color: #0C0507;
     border: none;
