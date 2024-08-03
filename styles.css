@@ -80,7 +80,7 @@ border-radius: 10px;
 
 .reflection_top_left,.reflection_bottom_right{
     border-radius: 50%;
-    background-color: #ffffff1c;
+    background-color: #ffffff24;
     position: absolute;
     padding: 62px;
 }
@@ -113,6 +113,7 @@ border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 3px 20px 3px #6579a2b5;
 }
 
 .help-center .question .circle {
