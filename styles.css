@@ -5,8 +5,8 @@
 }
 
 body {
-     font-family: "Poppins", sans-serif;
-     background-color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
 }
 
 .container {
@@ -48,14 +48,30 @@ body {
     font-size: 14px;
     display: flex;
     align-items: center;
-    width: 100% ;
-background-color: #F5F5F7;
-border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
     padding: 10px 15px;
+}
+.nav-item .active {
+  
+    background-color: #F5F5F7;
+  
+}
+.nav-item a:hover {
+  
+    background-color: #F5F5F7;
+  
 }
 
 .nav-item a img {
     margin-right: 15px;
+    filter: brightness(0) saturate(100%) invert(63%) sepia(10%) saturate(1040%) hue-rotate(197deg) brightness(93%) contrast(83%);
+}
+.nav-item .active img, .active p {
+    filter: brightness(0) saturate(100%) invert(5%) sepia(22%) saturate(6071%) hue-rotate(216deg) brightness(93%) contrast(109%);
+}
+.nav-item a:hover img, a:hover p {
+    filter: brightness(0) saturate(100%) invert(5%) sepia(22%) saturate(6071%) hue-rotate(216deg) brightness(93%) contrast(109%);
 }
 
 .help-center {
@@ -64,9 +80,10 @@ border-radius: 10px;
     width: 100%;
     border-radius: 10px;
     background-color: #0C0507;
-    color: #fff;   
+    color: #fff;
 }
-.help_reflection_overflow{
+
+.help_reflection_overflow {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -74,22 +91,25 @@ border-radius: 10px;
     overflow: hidden;
 }
 
-.reflection_top_left,.reflection_bottom_right{
+.reflection_top_left,
+.reflection_bottom_right {
     border-radius: 50%;
     background-color: #ffffff24;
     position: absolute;
     padding: 62px;
 }
 
-.reflection_top_left{
+.reflection_top_left {
     top: -62px;
     left: -62px;
 }
-.reflection_bottom_right{
+
+.reflection_bottom_right {
     bottom: -62px;
     right: -62px;
 }
-.help-center .help_inner{
+
+.help-center .help_inner {
 
     margin-bottom: -10px;
 }
@@ -102,7 +122,7 @@ border-radius: 10px;
     gap: 44px;
     position: relative;
     top: -25px;
-  
+
 }
 
 .help-center .question {
@@ -127,8 +147,8 @@ border-radius: 10px;
 }
 
 .help-center .content {
-    flex:1;
-  
+    flex: 1;
+
 }
 
 
@@ -146,7 +166,7 @@ border-radius: 10px;
     width: 152px;
 }
 
-.help-center button{
+.help-center button {
     width: 100%;
     padding: 10px 22px;
     background-color: #fff;
