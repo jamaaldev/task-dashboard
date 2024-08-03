@@ -73,10 +73,6 @@ border-radius: 10px;
     border-radius: 10px;
     overflow: hidden;
 }
-.help-center .help_inner{
-
-    margin-bottom: -10px;
-}
 
 .reflection_top_left,.reflection_bottom_right{
     border-radius: 50%;
@@ -92,6 +88,10 @@ border-radius: 10px;
 .reflection_bottom_right{
     bottom: -62px;
     right: -62px;
+}
+.help-center .help_inner{
+
+    margin-bottom: -10px;
 }
 
 .help-center .help_inner_info {
