@@ -94,7 +94,7 @@ body {
 .reflection_top_left,
 .reflection_bottom_right {
     border-radius: 50%;
-    background-color: #ffffff24;
+    background-color: #e1f5fe1a;
     position: absolute;
     padding: 62px;
 }
