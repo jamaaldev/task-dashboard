@@ -74,7 +74,7 @@ border-radius: 10px;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 44px;
     top: -24px;
     position: absolute;
     left: 0;
@@ -103,21 +103,22 @@ border-radius: 10px;
 
 .help-center .content {
     flex:1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  
 }
 
 
 
 .help-center h2 {
     font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 12px;
+
 }
 
 .help-center p {
     font-size: 11px;
+    font-weight: 350;
     width: 152px;
-    padding-block: 15px;
 }
 
 .help-center button{
