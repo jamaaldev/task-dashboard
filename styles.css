@@ -11,18 +11,19 @@ body {
 
 .container {
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
 }
 
 .sidebar {
     width: 252px;
     background-color: white;
-    padding: 20px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    /* justify-content: center; */
+    min-height: 100vh;
 }
 
 .nav {
@@ -74,7 +75,7 @@ ul .active a img {
     align-items: center;
     width: 100% ;
 
-    padding: 10px 15px;
+    padding: 10px 5px;
 }
 
 
@@ -90,7 +91,7 @@ ul .active a img {
     border-radius: 10px;
     background-color: #0C0507;
     color: #fff;
-    padding: 20px;
+    padding: 18px;
  
 }
 
@@ -169,6 +170,7 @@ ul .active a img {
 .help-center p {
     font-size: 12px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .help-center button{
@@ -192,8 +194,8 @@ ul .active a img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 25px;
-    padding-block: 20px;
+    padding-inline: 32px;
+    padding-block: 32px;
 }
 .main_avator {
     display: flex;
@@ -243,4 +245,51 @@ ul .active a img {
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.main-container .top_section{
+    display: flex;
+    padding-block: 12px;
+    padding-inline: 32px;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.main-container .top_section .running_task{
+    width: 194px;
+    height: 214px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main-container .top_section .activity{
+    height: 214px;
+    background-color:#F5F5F7;
+    border-radius: 10px;
+    padding: 20px;
+  
+}
+
+.main-container .top_section .activity .task{
+    width: 422px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* right_side */
+.right_side{
+    width: 436px;
+    background-color: #F5F5F7;
+    padding: 32px;
+   
+}
+
+.right_side .mini_calendar{
+    background-color: white;
+    border-radius: 10px;
+    padding: 80px;
 }
