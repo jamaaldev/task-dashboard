@@ -1,11 +1,15 @@
-import { html } from "../node_modules/lit-html/lit-html.js";
+// import { html } from "../node_modules/lit-html/lit-html.js";
+// import {html} from "lit-html"
 import { main } from "./innerHtml.js";
 
+const html = (html) =>{
+  return html
+  }
 const header = () => {
   const headerTop = document.createElement("header");
   main(headerTop);
 
-  return (headerTop.outerHTML = tempalete.strings);
+  return (headerTop.outerHTML = tempalete);
 };
 
 const tempalete = html`

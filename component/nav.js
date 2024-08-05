@@ -1,10 +1,14 @@
-import { html } from "../node_modules/lit-html/lit-html.js";
+// import { html } from "../node_modules/lit-html/lit-html.js";
+// import {html} from "lit-html"
 import { sidebar } from "./innerHtml.js";
 
+const html = (html) =>{
+  return html
+  }
 const nav = () => {
   const nav = document.createElement("nav");
   sidebar(nav);
-  return (nav.outerHTML = tempalete.strings);
+  return (nav.outerHTML = tempalete);
 };
 
 const tempalete = html`
