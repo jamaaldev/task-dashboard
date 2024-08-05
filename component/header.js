@@ -34,7 +34,7 @@ const tempalete = html`
         class="avator"
         width="62"
         height="62"
-        src="/images/avator.jpg"
+        src="task-dashboard/images/avator.jpg"
         alt="avator"
       />
     </div>
