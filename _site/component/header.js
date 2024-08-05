@@ -25,7 +25,7 @@ const tempalete = html`
 
           <img
             class="notification"
-            src="/images/Notification.svg"
+            src="./images/Notification.svg"
             alt="Notification"
           />
         </div>
