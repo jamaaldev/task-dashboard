@@ -15,7 +15,7 @@ const tempalete = html`
   <nav class="nav">
     <ul>
       <li class="nav-item active">
-        <a href="/">
+        <a href="./">
           <img src="./images/category-2.svg" alt="" />
           Overview
         </a>
