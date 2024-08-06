@@ -11,7 +11,7 @@ const logo = () => {
 };
     const tempalete = html`
     <div class="logo">
-    <img src="/images/logo.png" alt="logo">
+    <img src="./images/logo.png" alt="logo">
     </div>
     `
 

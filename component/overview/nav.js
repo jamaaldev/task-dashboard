@@ -14,32 +14,32 @@ const tempalete = html`
     <ul>
       <li class="nav-item active">
         <a href="./">
-          <img src="/images/category-2.svg" alt="" />
+          <img src="./images/category-2.svg" alt="" />
           Overview
         </a>
       </li>
 
       <li class="nav-item">
         <a href="./task">
-          <img src="/images/book.svg" alt="" />
+          <img src="./images/book.svg" alt="" />
           Tasks
         </a>
       </li>
       <li class="nav-item">
         <a href="#">
-          <img src="/images/user-octagon.svg" alt="" />
+          <img src="./images/user-octagon.svg" alt="" />
           Mentors
         </a>
       </li>
       <li class="nav-item">
         <a href="#">
-          <img src="/images/message.svg" alt="" />
+          <img src="./images/message.svg" alt="" />
           Message
         </a>
       </li>
       <li class="nav-item">
         <a href="#">
-          <img src="/images/setting-2.svg" alt="" />
+          <img src="./images/setting-2.svg" alt="" />
           Settings
         </a>
       </li>

@@ -19,7 +19,7 @@ const tempalete = html`
     <div class="help_info">
       <div class="question">
         <div class="circle">
-          <img src="/images/ques.svg" alt="" />
+          <img src="./images/ques.svg" alt="" />
         </div>
       </div>
       <div class="content">
