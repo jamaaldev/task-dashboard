@@ -1,4 +1,4 @@
-import { html_body } from "../component/overview/innerHtml.js";
+import { html_body } from "../../component/overview/innerHtml.js";
 
 const html = (html) =>{
 return html
