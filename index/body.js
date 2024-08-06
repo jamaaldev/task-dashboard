@@ -1,6 +1,4 @@
-// import { html } from "../node_modules/lit-html/lit-html.js";
-// import {html} from "lit-html"
-import { html_body } from "../component/innerHtml.js";
+import { html_body } from "../component/overview/innerHtml.js";
 
 const html = (html) =>{
 return html

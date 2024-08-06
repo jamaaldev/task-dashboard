@@ -16,6 +16,15 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "webrick", "~> 1.8"
+  gem "jekyll-node-module"
+end
+
+group :other_plugins do
+  gem 'css_parser'
+  gem 'html-pipeline'
+  gem 'sass-globbing'
+  gem 'sass-rails', '~> 6.0'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,6 +41,5 @@ end
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "webrick", "~> 1.8"
-gem "jekyll-node-module"
+
 

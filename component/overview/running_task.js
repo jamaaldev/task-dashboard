@@ -1,5 +1,3 @@
-// import { html } from "../node_modules/lit-html/lit-html.js";
-// import {html} from "lit-html"
 import { main } from "./innerHtml.js";
 
 const html = (html) =>{

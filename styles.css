@@ -1,3 +1,6 @@
+
+@import url("./component/overview/header.css");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -190,7 +193,7 @@ ul .active a img {
     flex: 1;
 }
 
-.main_header {
+/* .main_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -201,13 +204,14 @@ ul .active a img {
     display: flex;
     align-items: center;
     gap: 20px;
-}
+} */
 
-.main_avator .avator {
+/* .main_avator .avator {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-}
+    object-fit: cover;
+} */
 
 .notification_container{
     position: relative;
