@@ -1,0 +1,31 @@
+
+.running_task{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    color: white;
+
+}
+
+.running_task > span{
+    font-size: 2em;
+}
+
+.percen_task{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;;
+}
+
+.number_task{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.number_task span:last-child{
+    font-size: 0.8em;
+    color: #c8c8c8;
+}

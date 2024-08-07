@@ -1,5 +1,7 @@
 
 @import url("./component/overview/header.css");
+@import url("./component/overview/running_task.css");
+@import url("./component/ui/progress_bar.css");
 
 * {
     box-sizing: border-box;

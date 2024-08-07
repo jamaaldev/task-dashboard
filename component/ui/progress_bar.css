@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --progress-bar: 90px;
+    --progress-bar-width: var(--progress-bar);
+    --progress-bar-height: var(--progress-bar);
+    --font-size: 1.5rem;
+  }
+  
+  .circular-progress {
+    width: var(--progress-bar-width);
+    height: var(--progress-bar-height);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 101, 219) !important;
+  }
+  .inner-circle {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--progress-bar-width) - 10px);
+    height: calc(var(--progress-bar-height) - 10px);
+    border-radius: 50%;
+    background-color: black;
+}
+.inner-circle2 {
+    border: 5px solid #c6f1ff21 !important;
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--progress-bar-width) - 10px);
+    height: calc(var(--progress-bar-height) - 10px);
+    border-radius: 50%;
+    /* background-color: rgb(244, 227, 227); */
+  }
+  
+  .percentage {
+    position: relative;
+    font-size: var(--font-size);
+    color: white !important;
+  }

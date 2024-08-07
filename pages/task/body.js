@@ -1,11 +1,12 @@
-import { html_body } from "../../component/overview/innerHtml.js";
+import {innerHelper} from "../../lib/innerHtml.js";
 
 const html = (html) =>{
 return html
 }
 const body = () => {
   const body = document.createElement("body");
-  html_body(body);
+  const {html_body} = innerHelper(body,"body")
+  html_body();
 
   return (body.outerHTML = tempalete);
 };

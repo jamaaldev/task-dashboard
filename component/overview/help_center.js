@@ -1,10 +1,11 @@
-import { sidebar } from "./innerHtml.js";
+import { innerHelper } from "../../lib/innerHtml.js";
 
 const html = (html) =>{
   return html
   }
 const help_center = () => {
   const help_center = document.createElement("div");
+  const {sidebar} = innerHelper(help_center,".sidebar")
   sidebar(help_center);
 
   return (help_center.outerHTML = tempalete);

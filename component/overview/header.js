@@ -1,10 +1,11 @@
-import { main } from "./innerHtml.js";
+import { innerHelper } from "../../lib/innerHtml.js";
 
 const html = (html) =>{
   return html
   }
 const header = () => {
   const headerTop = document.createElement("header");
+  const {main} = innerHelper(headerTop,".main-container")
   main(headerTop);
 
   return (headerTop.outerHTML = tempalete);
