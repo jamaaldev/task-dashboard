@@ -28,7 +28,7 @@ const tempalete = html`
       <span>65</span>
       <div class="percen_task">
         <div class="progress_bar">
-          ${innerInsert([progressBar,progressScript])}
+          <!-- ${innerInsert([progressBar,progressScript])} -->
         </div>
         <div class="number_task">
           <span>100</span>
@@ -39,8 +39,7 @@ const tempalete = html`
     <div class="activity">
       <div class="task"></div>
     </div>
-  </section>
-`;
+  </section>`;
 
 
 
