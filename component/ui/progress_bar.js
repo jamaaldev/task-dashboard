@@ -3,10 +3,11 @@ import { innerHelper } from "../../lib/innerHtml.js";
 const html = (html) => {
   return html;
 };
-const progressBar = () => {
+export const progressBar = () => {
   const progress = document.createElement("div");
   const { innerTarget } = innerHelper(progress, ".progress_bar");
-  innerTarget(progress);
+  innerTarget();
+  
 
   
 
@@ -29,4 +30,3 @@ const tempalete = html`
 
 
 
-export default progressBar;

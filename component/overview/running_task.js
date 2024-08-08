@@ -1,10 +1,17 @@
-import progressBar from "../ui/progress_bar.js";
-import { innerHelper } from "../../lib/innerHtml.js";
+import {progressBar} from "../ui/progress_bar.js";
+import { innerHelper,innerInsert } from "../../lib/innerHtml.js";
 import progressScript from "../ui/progress_script.js";
 
 const html = (html) =>{
   return html
   }
+  // const innerInsert = (arr) => {
+  //   const array = [...arr]
+  //   setTimeout(() => {
+      
+  //   array.forEach(call => call())
+  //   })
+  // }
 const running_task = () => {
   const section = document.createElement("section");
   const {main} = innerHelper(section,".main-container")
@@ -21,7 +28,7 @@ const tempalete = html`
       <span>65</span>
       <div class="percen_task">
         <div class="progress_bar">
-          <!-- ${setTimeout(() => progressBar() && progressScript())} -->
+          ${innerInsert([progressBar,progressScript])}
         </div>
         <div class="number_task">
           <span>100</span>
